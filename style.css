@@ -25,8 +25,8 @@ p{
     margin-left: 19%;
 }
 
-.top-section{
-    background-image: url("top-banner.png");
+#top-section{
+    background-image: url("header-bg.png");
     background-repeat: no-repeat;
     height: 500px;
 }
@@ -43,9 +43,79 @@ p{
     color: seagreen;
 }
 
-.second-section{
-    background-image: url("dream-bg.png");
+#second-section{
+    background-image: url("biography-bg.png");
     background-repeat: no-repeat;
     height: 500px;
     background-position: right;
+}
+
+.salmon{
+    color: rgb(255, 116, 101);
+}
+.sandy{
+    color: saddlebrown;
+}
+
+#third-section{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+}
+
+.aligncenter{
+    text-align: center;
+}
+
+.one-third_width{
+    width: 25%;
+    float: left;
+    margin: 2%
+}
+img{
+    height: 100%;
+}
+
+#lastsection{
+    background-image: url(footer-bg.png);
+    width: 100%;
+    background-position: center;
+}
+
+#first{
+    margin-left: 120px;
+}
+
+.lessweight{
+    font-family: 'Work Sans', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+
+#h{
+    font-weight: 900;
+}
+
+#lastsection-h{
+    font-weight: 100;
+}
+
+#lastdiv{
+    border:1px solid salmon;
+    margin:0% 30%;
+    border-radius: 15px;
+    background-color: slateblue;
+}
+#last_anchor{
+    text-decoration: none;
+    color: goldenrod;
+}
+#last_anchor:hover{
+    color: whitesmoke;
+}
+
+footer{
+    text-align: center;
 }
