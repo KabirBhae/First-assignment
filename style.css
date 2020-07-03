@@ -58,10 +58,9 @@ p{
 }
 
 #third-section{
-    background-image: url(latest-work-bg.png);
+    background-image: url("latest-work-bg.png");
     background-repeat: no-repeat;
     height: 500px;
-    width: 100%;
     background-position: center;
 }
 
@@ -79,8 +78,8 @@ img{
 }
 
 #lastsection{
-    background-image: url(footer-bg.png);
-    width: 100%;
+    background-image: url("footer-bg.png");
+    height: 1500ox;
     background-position: center;
 }
 
